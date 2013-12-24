@@ -1,0 +1,95 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+}
+
+.calendar {
+    font-size: 14px;
+    border: 1px solid #CCCCCC;
+    width: 250px;
+}
+
+.calendar .holiday, .calendar .days .holiday {
+    color: red;
+}
+
+.calendar .select {
+    margin: 10px;
+}
+
+.calendar .select a {
+    font-size:18px;
+    width: 25px;
+    height: 25px;
+    text-align:center;
+    color:#A3A3A3;
+    text-decoration:none;
+    display: block;
+    float: left;
+    border: 1px solid #A3A3A3;
+    border-radius: 13px;
+}
+
+.calendar .select a:hover {
+
+    border: 1px solid #000000;
+    color:#000000;
+}
+
+.calendar .select span {
+    display: block;
+    margin-top: 4px;
+    float: left;
+    width: 176px;
+    text-align:center;
+}
+
+.calendar .week {
+    margin-left: 20px;
+    width: 210px;
+}
+
+.calendar .week span {
+
+    display: block;
+    float: left;
+    width: 30px;
+    text-align:center;
+}
+
+.calendar .days {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 210px;
+}
+
+.calendar .days a {
+
+    color: black;
+    text-decoration:none;
+    display: block;
+    float: left;
+    width: 28px;
+    text-align:center;
+    background: rgb(230, 230, 230);
+    padding: 1px;
+}
+
+.calendar .days a:hover {
+    background: rgb(200, 200, 200);
+}
+
+.calendar .days .pad {
+    width: 30px;
+    height: 1px;
+    float: left;
+}
+
+.calendar .days .active {
+    border: 1px solid black;
+    padding: 0px;
+}
