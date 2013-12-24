@@ -1,0 +1,38 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.massage {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    width: 250px;
+    border-radius: 6px;
+    line-height: 1.4;
+    font-size: 14px;
+    z-index: 1000;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+    top: 100px;
+    left: 150px;
+}
+
+.massage .title {
+    background: #F2F2F2;
+    padding: 10px;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.massage .content{
+    padding: 10px;
+}
+
+.massage .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    position: relative;
+    left: 115px;
+    top: 10px;
+}
