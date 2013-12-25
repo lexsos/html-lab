@@ -1,0 +1,62 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+}
+
+.top-menu {
+    background: #f8f8f8;
+    background-image: linear-gradient(to bottom, #FFFFFF, #F2F2F2);
+    border-radius: 4px;
+    border: 1px solid #E7E7E7;
+    font-size: 14px;
+    width: 450px;
+}
+
+.top-menu .menu-item {
+    float: left;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+}
+
+.top-menu .active {
+    background: #E7E7E7;
+}
+
+.top-menu a {
+    text-decoration:none;
+    color: #777777;
+}
+
+.top-menu .menu-item:hover a {
+    color: black;
+}
+
+.top-menu .sub-menu {
+    display: none;
+    background: white;
+    border: 1px solid #E7E7E7;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+}
+
+.top-menu .sub-menu a {
+    display: block;
+    padding:  5px 20px 5px 20px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.top-menu .sub-menu a:hover {
+    background: #E7E7E7;
+}
+
+.top-menu .menu-item:hover .sub-menu {
+    display: block;
+}
